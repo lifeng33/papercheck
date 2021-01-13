@@ -1,0 +1,24 @@
+.body {
+    width: 70%;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+.btn-commit {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #20A0FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: hand;
+    cursor: pointer;
+}

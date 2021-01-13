@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>智能检测</title>
+    <link th:href="@{/css/check.css}" rel="stylesheet">
+    <script type="text/javascript" th:src="@{/plugin/jquery-1.12.4.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/check.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="body">
+        <form th:action="@{/docheck}" method="post" enctype="multipart/form-data" id="checkForm">
+            <div class="form-line">
+                <label class="form-label">选择文件</label>
+                <input type="file" class="file-input" name="paper_doc" id="checkFile"/>
+            </div>
+            <div class="btn-commit" id="commitBtn">开始查重</div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
